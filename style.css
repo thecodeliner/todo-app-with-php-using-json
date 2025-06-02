@@ -1,0 +1,108 @@
+body {
+      background: linear-gradient(to right, #191714, #0f172a);
+      color: #1e293b;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .todo-container {
+      background-color: white;
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 500px;
+      margin: 80px auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .todo-header {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .add-task-form {
+      display: flex;
+      border-radius: 30px;
+      overflow: hidden;
+      background-color: #f1f5f9;
+      margin-bottom: 20px;
+    }
+
+    .add-task-form input {
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 10px 20px;
+      flex: 1;
+    }
+
+    .add-task-form button {
+      background-color: #4895e4;
+      color: white;
+      border: none;
+      padding: 10px 30px;
+      font-weight: bold;
+    }
+
+    .filter-select {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 10px 0;
+    }
+
+    .todo-text.completed {
+      text-decoration: line-through;
+      color: #94a3b8;
+    }
+
+    .todo-details {
+      font-size: 10px;
+      color: #64748b;
+      margin-left: 24px;
+    }
+
+    .btn-icon {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #475569;
+    }
+
+    .btn-icon:hover {
+      color: #1e293b;
+    }
+
+    .btn-checkmark {
+      color: #22c55e;
+    }
+
+    .todo-item[data-status="completed"] {
+      display: flex;
+    }
+
+    .todo-item[data-status="pending"] {
+      display: flex;
+    }
+    .btn-checkmark a{
+        text-decoration: none !important;
+    }
+    .del-btn a{
+        text-decoration: none !important;
+    }
+    .stcomplete{
+        color: blue;
+    }
+    .all-task{
+    
+        height: 300px;
+        overflow: auto;
+        
+    }
+    
