@@ -1,12 +1,3 @@
 [
-    {
-        "name": "Sharif",
-        "email": "demo@email.com",
-        "skill": "php"
-    },
-    {
-        "name": "John",
-        "email": "john@email.com",
-        "skill": "Laravel"
-    }
+
 ]
